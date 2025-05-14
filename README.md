@@ -1,6 +1,6 @@
 # 📚 Catálogo de Viagens
 
-Projeto desenvolvido para a Unidade Curricular de **Front-End**, ministrada pelo professor **Kristian Erdmann**.
+Projeto desenvolvido para a Unidade Curricular de Front-End, ministrada pelo professor Kristian Erdmann.
 
 ## 📝 Descrição
 
@@ -22,14 +22,16 @@ O objetivo é praticar a criação de páginas HTML e a aplicação de estilos C
 ### Páginas de Destino (`destino1.html` até `destino9.html`)
 
 - Título com o nome do destino (`<h1>`)
-- Imagem ilustrativa (com `alt`)
+- Imagem ilustrativa (com atributo `alt`)
 - Parágrafo apresentando o destino
 - Lista com pelo menos 3 atrações turísticas
 - Pelo menos 2 links internos para outras páginas
 - Um link externo para mais informações
 - Link para voltar à página inicial
 
-## 🎨 Estilização (CSS) - com o auxílio das alunas da MIDS 76
+## 🎨 Estilização (CSS)
+
+**Com o auxílio das alunas da MIDS 76**
 
 - Uso de `section` para organizar melhor o layout
 - Customização de:
@@ -39,6 +41,7 @@ O objetivo é praticar a criação de páginas HTML e a aplicação de estilos C
   - Títulos
   - Imagens
   - Backgrounds
-- Implementação de **responsividade** com `@media`
-- Adaptação dos links internos como listas (`<li><a href="pagina.html">Texto</a></li>`)
-- Estudo sobre transições e movimentos (não implementados por falta de tempo)
+- Implementação de responsividade com `@media`
+- Adaptação dos links internos como listas:
+  ```html
+  <li><a href="pagina.html">Texto</a></li>
